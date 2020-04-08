@@ -22,7 +22,7 @@ public class App
         {
             System.out.println("This is a leap year");
         }
-        else if (year% 100 == 0) // all years dividable to 100 in the Gregorian calendar are non leap years
+        else if (year% 100 == 0) // all years dividable to 100 and not 400 in the Gregorian calendar are non leap years
         {
             System.out.println("This is a non leap year");
         }
